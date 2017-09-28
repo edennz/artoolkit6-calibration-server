@@ -1,0 +1,6 @@
+Options +Indexes
+IndexIgnore .DS_Store .htaccess
+IndexOptions FancyIndexing NameWidth=* -DescriptionWidth
+AuthName admin
+AuthType basic
+require valid-user
